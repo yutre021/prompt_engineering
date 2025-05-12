@@ -1,2 +1,2 @@
-# prompt_engineering
-Here is gonna be talk about LLM ann PLN of prompt`s
+# Prompt Engineering
+Here is gonna be a talk about LLM and PLN of prompt`s
