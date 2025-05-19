@@ -3,7 +3,8 @@ Here is gonna be a talk about LLM and PLN of prompts
 
 
 Search connections on tokenization in OpenAI, Copilot, and Gemini
-
+# Mapa mental DIO
+<img src="prompt_engineering/src/imagem_2025-05-19_163649455.png" alt="Diagrama UML" width="600"/>
 
 # 1. Clear Instruction
 - You need to set a text that you don`t have a roll of lake of information, going into the target already
