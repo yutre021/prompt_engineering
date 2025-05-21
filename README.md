@@ -12,6 +12,46 @@ Um prompt bem construído é composto por diversos elementos que trabalham em co
 
 <img src="src/imagem_2025-05-19_163649455.png" alt="Mapa Mental dos Componentes de um Prompt - Diagrama da DIO" width="1000"/>
 
+## Técnicas Fundamentais de Engenharia de Prompts
+
+1.  **Clareza e Especificidade:**
+    * Seja o mais explícito possível sobre o que você quer. Evite ambiguidades.
+    * Quanto mais detalhes relevantes você fornecer, melhor será o resultado.
+
+2.  **Zero-shot Prompting:**
+    * Dar uma instrução direta ao modelo sem exemplos prévios. Funciona bem para tarefas que o modelo já foi treinado extensivamente.
+    * Exemplo: "Qual é a capital da França?"
+
+3.  **Few-shot Prompting:**
+    * Fornecer alguns exemplos (shots) de entradas e saídas desejadas para guiar o modelo. Útil para tarefas mais complexas ou quando se deseja um formato específico.
+    * Exemplo:
+        * "Cliente: Preciso de ajuda com minha senha. Assistente: Posso ajudar a redefinir sua senha. Qual é o seu email?"
+        * "Cliente: O produto chegou quebrado. Assistente: [Peça ao modelo para gerar uma resposta empática e uma solução]"
+
+4.  **Chain-of-Thought (CoT) Prompting:**
+    * Incentivar o modelo a "pensar passo a passo" antes de dar a resposta final, especialmente para problemas que exigem raciocínio.
+    * Exemplo: "Some 5 + 8. Explique o seu raciocínio passo a passo antes de dar o resultado final."
+
+5.  **Definição de Persona/Papel:**
+    * Instruir o modelo a atuar como um especialista ou assumir uma determinada personalidade.
+    * Exemplo: "Aja como um revisor de textos experiente e corrija os erros gramaticais no texto a seguir."
+
+6.  **Uso de Delimitadores:**
+    * Utilizar caracteres como `"""`, `---`, `<tag>`, `##` para separar claramente diferentes partes do prompt (instrução, contexto, dados).
+    * Exemplo:
+        ```
+        Contexto: """Você é um bot de atendimento ao cliente."""
+        Instrução: """Responda à seguinte pergunta do cliente:"""
+        Pergunta do Cliente: """Como posso rastrear meu pedido?"""
+        ```
+
+7.  **Restrições e Limitações:**
+    * Especificar o que o modelo *não* deve fazer ou quais limites deve respeitar (ex: "Não use jargões técnicos", "Limite a resposta a 100 palavras").
+
+8.  **Iteração e Refinamento:**
+    * A engenharia de prompts é um processo iterativo. Teste diferentes abordagens, analise as respostas e refine seus prompts para obter melhores resultados.
+
+
 Vamos detalhar cada um desses componentes, conforme apresentados na imagem:
 
 1.  **📜 Instruções:**
