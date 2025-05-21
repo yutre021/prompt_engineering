@@ -34,6 +34,9 @@ Um prompt bem estruturado geralmente inclui um ou mais dos seguintes componentes
         * Entrada: "Traduza 'Olá' para o francês." Saída: "Bonjour."
         * Entrada: "Traduza 'Adeus' para o francês." Saída: (o modelo deve gerar "Au revoir.")
 
+## Mapa mental DIO - Componentes de um Prompt
+<img src="src/imagem_2025-05-19_163649455.png" alt="Mapa Mental dos Componentes de um Prompt - Diagrama da DIO" width="1000"/>
+
 ## Técnicas Fundamentais de Engenharia de Prompts
 
 1.  **Clareza e Especificidade:**
@@ -91,6 +94,7 @@ Dominar a engenharia de prompts demonstra:
 * **Eficiência e Produtividade:** Capacidade de extrair o máximo valor de ferramentas de IA para otimizar tarefas.
 
 A engenharia de prompts é uma competência chave na era da IA, permitindo que profissionais de diversas áreas interajam de forma mais inteligente e produtiva com as tecnologias generativas.
+
 # Prompt Engineering
 Here is gonna be a talk about LLM and PLN of prompts
 
